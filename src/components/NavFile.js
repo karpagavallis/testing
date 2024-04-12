@@ -15,7 +15,7 @@ export default class NavFile extends Component {
         return <>
             <Navbar expand="lg" sticky="top" className="navbg">
                 <div className="container-fluid">  
-                    <Navbar.Brand as={Link} to="/"></Navbar.Brand>                    
+                    <Navbar.Brand as={Link} to="/" className="d-md-none">KarpagavalliS</Navbar.Brand>                    
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />                    
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="justify-content-end flex-grow-1 pe-3">
