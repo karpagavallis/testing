@@ -149,6 +149,9 @@
     }
 
 @media screen and (min-width:993px) and (max-width:1200px) {
+    .portfolio-bg{
+        height: calc(100vh - 120px);
+    }
     .title-section h1 {
         font-size: 40px;
     }
@@ -185,5 +188,30 @@
     /*----------Skill section-----------*/
     .skill-section {
         padding: 10px 0;
+    }
+    .hero-para {
+        font-size: 17px;
+        width: 98%;
+    }
+    .hero-sub-title {
+        font-size: 30px;
+    }
+    a.nav-link{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:1201px) and (max-width:1500px){
+    a.nav-link{
+        font-size: 18px;
+    }
+    .portfolio-bg{
+        height: calc(100vh - 100px);
+    }
+    .hero-title{
+        font-size: 50px;
+    }
+    .hero-para {
+        font-size: 20px;
+        width: 98%;
     }
 }
