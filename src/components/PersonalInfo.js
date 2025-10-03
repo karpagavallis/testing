@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from "../images/Karpagavalli-resume.pdf"
+
 import { Link } from 'react-router-dom'
 
 const PersonalInfo = (props) =>{
